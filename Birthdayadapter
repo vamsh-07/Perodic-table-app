@@ -1,0 +1,5 @@
+val smsIntent = Intent(Intent.ACTION_VIEW).apply {
+    data = Uri.parse("sms:${birthday.phone}")
+    putExtra("sms_body", birthday.message)
+}
+context.startActivity(smsIntent)
