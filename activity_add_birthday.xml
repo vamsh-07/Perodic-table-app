@@ -1,0 +1,7 @@
+<LinearLayout ... >
+    <EditText android:id="@+id/nameInput" ... android:hint="Name"/>
+    <EditText android:id="@+id/phoneInput" ... android:hint="Phone"/>
+    <EditText android:id="@+id/dateInput" ... android:hint="Date (YYYY-MM-DD)"/>
+    <EditText android:id="@+id/messageInput" ... android:hint="Custom Message"/>
+    <Button android:id="@+id/saveButton" ... android:text="Save"/>
+</LinearLayout>
