@@ -1,0 +1,6 @@
+val emailIntent = Intent(Intent.ACTION_SENDTO).apply {
+    data = Uri.parse("mailto:")
+    putExtra(Intent.EXTRA_SUBJECT, "Happy Birthday!")
+    putExtra(Intent.EXTRA_TEXT, birthday.message)
+}
+context.startActivity(emailIntent)
